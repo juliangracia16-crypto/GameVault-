@@ -22,7 +22,6 @@ public class GameController {
     private static List<Juego> juegosDb = new ArrayList<>();
     private static long idCounter = 1;
 
-    private static final String UPLOAD_DIR = "src/main/resources/static/uploads/";
 
     static {
         // juegosDb.add(new Juego(idCounter++, "The Legend of Zelda", "Aventura épica.", "zelda.jpg"));
@@ -53,28 +52,7 @@ public class GameController {
 
         // Verificamos si el archivo no está vacío
         if (!portada.isEmpty()) {
-            try {
-                // Tip para clase: Crear la carpeta si no existe
-                Path uploadPath = Paths.get(UPLOAD_DIR);
 
-                if (!Files.exists(uploadPath)) {
-                    Files.createDirectories(uploadPath);
-                }
-
-                // Generamos un nombre único para evitar sobreescribir archivos con el mismo nombre
-                nombreArchivo = UUID.randomUUID().toString() + "_" + portada.getOriginalFilename();
-                Path filePath = uploadPath.resolve(nombreArchivo);
-
-                // Guardamos el archivo físicamente en disco
-                Files.copy(portada.getInputStream(), filePath);
-
-                System.out.println("Archivo guardado en: " + filePath.toAbsolutePath());
-
-            } catch (IOException e) {
-                e.printStackTrace();
-                // En un proyecto real, manejaríamos esta excepción apropiadamente
-                // (ej. redirigir con error)
-            }
         }
 
         // Guardamos el juego en nuestra "base de datos"

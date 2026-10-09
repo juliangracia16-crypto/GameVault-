@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408d58c2-758f-48b9-975e-73434456e1ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/controllers/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/models/Juego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/resources/static/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/resources/templates/formulario.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/resources/templates/fragments-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/resources/templates/juegos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/resources/templates/layout/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GameVault-.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/repository/JuegoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/service/JuegoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/controllers/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/models/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/models/Juego.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameVault/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +49,15 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.GameVaultApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Julian/OneDrive/Documents/GitHub/GameVault-",
+    "last_opened_file_path": "C:/Users/Lv1800/Documents/GitHub/GameVault-",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -69,7 +74,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
       </set>
     </attachedChunks>
   </component>
@@ -82,5 +88,8 @@
       <updated>1791430941554</updated>
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
