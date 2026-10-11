@@ -57,4 +57,13 @@ public class JuegoService {
             // (ej. redirigir con error)
         }
     }
+
+    public List<Juego> buscaPorTitulo(String palabra) {
+        if(palabra == null || palabra.trim().isEmpty()){
+                return obtenerTodos();
+        }
+        return juegoRepository.findByTituloContainingIgnoreCase(palabra);
+    }
+
+
 }
