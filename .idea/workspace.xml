@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408d58c2-758f-48b9-975e-73434456e1ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/models/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/service/UsuarioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/service/JuegoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/service/JuegoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/resources/templates/juegos.html" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/resources/templates/juegos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/models/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/models/Juego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/repository/JuegoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/repository/JuegoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/target/classes/com/example/GameVault/controllers/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/target/classes/com/example/GameVault/controllers/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/target/classes/com/example/GameVault/models/Juego.class" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/target/classes/com/example/GameVault/models/Juego.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/target/classes/templates/juegos.html" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/target/classes/templates/juegos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>

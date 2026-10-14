@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
 @Table(name="Juegos")
 public class Juego {
 
@@ -23,4 +24,14 @@ public class Juego {
 
     @Column(name="portada-url")
     private String portadaURL;
+
+    @Column
+    private Double precio;
+
+    @Column
+    private String categoria;
+
+    @ManyToOne
+    @JoinColumn(name = "usuario_id")
+    private Usuario usuario_id;
 }
