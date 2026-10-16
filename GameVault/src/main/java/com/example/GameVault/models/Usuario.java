@@ -26,6 +26,6 @@ public class Usuario {
     @Column(nullable = false)
     private String contrasenia;
 
-    @OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "usuarioId", cascade = CascadeType.ALL)
     private List<Juego> juegos;
 }

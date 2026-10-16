@@ -26,7 +26,8 @@ public class JuegoService {
     }
 
     public void guardarJuego(Juego juego, MultipartFile portada){
-        String nombreArchivo = "default.png";
+        String nombreArchivo = juego.getPortadaURL() != null ?
+                juego.getPortadaURL(): "default.png";
         if(!portada.isEmpty()){
             nombreArchivo = guardarImagenLocal(portada);
         }
@@ -56,6 +57,18 @@ public class JuegoService {
             // En un proyecto real, manejaríamos esta excepción apropiadamente
             // (ej. redirigir con error)
         }
+    }
+
+    public Juego obtenerJuegoPorId(Long id){
+        return juegoRepository.findByUsuarioId(id).orElse(null);
+    }
+
+    public void eliminarJuego(Long id){
+        juegoRepository.deleteById(id);
+    }
+
+    public List<Juego> obtenerJuegosPorUsuario(Long usuarioId){
+        return juegoRepository.findByUsuarioId(usuarioId);
     }
 
     public List<Juego> buscaPorTitulo(String palabra) {

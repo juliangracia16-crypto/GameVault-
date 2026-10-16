@@ -32,6 +32,6 @@ public class Juego {
     private String categoria;
 
     @ManyToOne
-    @JoinColumn(name = "usuario_id")
-    private Usuario usuario_id;
+    @JoinColumn(name = "usuarioId")
+    private Usuario usuarioId;
 }
