@@ -12,7 +12,7 @@ public class UsuarioService {
     @Autowired
     UsuarioRepository usuarioRepository;
 
-    public Usuario obtenerUsuarioLogeado(){
+    public Usuario obtenerUsuarioLogueado(){
         Optional<Usuario> usuarioOpt = usuarioRepository.findById(1l);
         if(usuarioOpt.isPresent()){
             return usuarioOpt.get();

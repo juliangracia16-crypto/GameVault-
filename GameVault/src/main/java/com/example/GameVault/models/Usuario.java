@@ -5,14 +5,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "Usuarios")
+@Table(name="Usuarios")
 public class Usuario {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -25,7 +24,4 @@ public class Usuario {
 
     @Column(nullable = false)
     private String contrasenia;
-
-    @OneToMany(mappedBy = "usuarioId", cascade = CascadeType.ALL)
-    private List<Juego> juegos;
 }

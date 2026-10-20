@@ -60,7 +60,7 @@ public class JuegoService {
     }
 
     public Juego obtenerJuegoPorId(Long id){
-        return juegoRepository.findByUsuarioId(id).orElse(null);
+        return juegoRepository.findById(id).orElse(null);
     }
 
     public void eliminarJuego(Long id){
