@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es"
       xmlns:th="http://www.thymeleaf.org"
-      th:replace="~{layout/base :: layout(~{::title}, ~{::contenido})}">
+      th:replace="~{layout/base :: layout(~{::title}, ~{::main})}">
 
 <head>
     <title>Catálogo de Juegos - GameVault</title>
@@ -9,7 +9,7 @@
 
 <body>
 
-<th:block th:replace="~{layout/base :: layout(~{::title}, ~{::main})}">
+
     <title>Catálogo de Juegos - GameVault</title>
     <main class="container">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
@@ -44,7 +44,6 @@
             </div>
         </div>
     </main>
-</th:block>
 
 
 </body>

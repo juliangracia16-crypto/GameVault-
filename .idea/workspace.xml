@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408d58c2-758f-48b9-975e-73434456e1ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/controllers/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/resources/templates/registro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/config/AuthInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/models/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/src/main/resources/templates/juegos.html" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/resources/templates/juegos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/src/main/resources/templates/layout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/resources/templates/layout/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/target/classes/com/example/GameVault/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/target/classes/com/example/GameVault/config/SecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameVault/target/classes/com/example/GameVault/models/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/target/classes/com/example/GameVault/models/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameVault/target/classes/com/example/GameVault/service/UsuarioService.class" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/target/classes/com/example/GameVault/service/UsuarioService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameVault/target/classes/templates/juegos.html" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/target/classes/templates/juegos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
   "keyToString": {
     "Application.GameVaultApplication.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.base.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
